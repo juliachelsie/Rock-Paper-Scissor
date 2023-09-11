@@ -1,0 +1,10 @@
+/*-- Global style */
+body {
+    background-color: beige;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+}
