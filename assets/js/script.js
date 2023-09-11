@@ -1,22 +1,22 @@
-const game = () => {
+let game = () => {
     let playerScore = 0;
     let computerScore = 0;
     let moves = 0;
 
     const playGame = () => {
-        const rockButton = document.querySelector('.rock');
-        const paperButton = document.querySelector('.paper');
-        const scissorButton = document.querySelector('.scissors');
-        const pOptions = [rockButton, paperButton, scissorButton];
-        const cOptions = ['rock', 'paper', 'scissor'];
+        let rockButton = document.querySelector('.rock');
+        let paperButton = document.querySelector('.paper');
+        let scissorButton = document.querySelector('.scissors');
+        let pOptions = [rockButton, paperButton, scissorButton];
+        let cOptions = ['rock', 'paper', 'scissor'];
 
         /* function to start playing game */
         pOptions.forEach(option => {
             option.addEventListener('click', function () {
-                const movesLeft = document.querySelector('.movesLeft');
+                let movesLeft = document.querySelector('.movesLeft');
 
-                const numberChoice = Math.floor(Math.random() * 3);
-                const computersChoice = cOptions[numberChoice];
+                let numberChoice = Math.floor(Math.random() * 3);
+                let computersChoice = cOptions[numberChoice];
 
                 /*  Function who wins */
                  
@@ -32,10 +32,10 @@ const game = () => {
     };
 };
 /* Function to decide who is the winner */
-const winner = (player, computer) => {
-    const result = document.querySelector('.result');
-    const pScoreBoard = document.querySelector('.playerCount');
-    const cScoreboard = document.querySelector('.computerCount');
+let winner = (player, computer) => {
+    let result = document.querySelector('.result');
+    let pScoreBoard = document.querySelector('.playerCount');
+    let cScoreboard = document.querySelector('.computerCount');
     /* player to lowercsae???????*/
     if (player === computer){
         result.textContent = "It's a Tie!"
@@ -76,10 +76,10 @@ else if(player == 'paper'){
 }
 
 /* Function that runs when the game is over */
-const gameOver = (pOptions, movesLeft) => {
-    const move = document.querySelector('.makeMove');
-    const result = document.querySelector('.result');
-    const reload = document.querySelector('.reload');
+let gameOver = (pOptions, movesLeft) => {
+    let move = document.querySelector('.makeMove');
+    let result = document.querySelector('.result');
+    let reload = document.querySelector('.reload');
 
     pOptions.forEach(option => {
         option.style.display = 'none';
