@@ -107,8 +107,9 @@ const gameOver = (pOptions, movesLeft) => {
         window.location.reload();
     })
     
-   
+    playGame();
 
 }
 
+game();
 
