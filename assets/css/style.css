@@ -1,10 +1,42 @@
 /*-- Global style */
 body {
-    background-color: beige;
+    background-color: #5EC2B5;
     font-family: 'Open Sans', sans-serif;
+    color: #344B48;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    position: absolute;
+    
+}
+
+/* Styling for scoreboard */
+.game-area {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .heading {
     font-size: 3rem;
     text-align: center;
+}
+.score {
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    width: 100vw;
+    top: 80px;
+
+    
+}
+
+.playerScore, .computerScore {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
 }
