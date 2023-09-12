@@ -7,7 +7,7 @@
 
 /*-- Global style */
 body {
-    background-color: #5EC2B5;
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
     color: #344B48;
     text-align: center;
@@ -34,24 +34,29 @@ body {
 }
 
 .heading {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    background-color: #96B1AC;
+    background-color: #69D1AE;
+    height: 120px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
+
 .score {
     display: flex;
     position: absolute;
     justify-content: space-evenly;
     width: 100vw;
-    top: 80px;
+    top: 100px;
 
     
 }
 
 .playerScore, .computerScore {
     text-align: center;
-    font-size: 2rem;
-    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    font-weight: bold;
 }
 /* styling on buttons */
 .options {
@@ -69,26 +74,27 @@ body {
 }
 
 .makeMove {
-    font-size: 2rem;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 120px;
 }
 
 .movesLeft {
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     
 }
 /* reload button style */
 .reload {
-    margin-top: 3rem;
-    padding: 2rem;
-    justify-content: space-evenly;
-    border-radius: 15px;
-    padding: 20px;
-    width: 40%;
+    margin-top: 2rem;
+    padding: 5px;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 
 
 }
@@ -104,17 +110,18 @@ body {
 /* Footer */
 
 footer {
-    background-color: #5EC2B5;
+    background-color: #69D1AE;
     margin-top: auto;
+    padding-bottom: 40px;
+    height: 120px;
     
 }
 #social-networks {
     justify-content: space-evenly;
-    list-style-type: none;
-    display: flex;
-    padding-left: 10px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2.5rem;
     max-width: 350px;
     font-size: 25px;
    
@@ -129,3 +136,99 @@ footer {
 .rulesH2 {
     text-decoration: underline;
 }
+
+/* Media query: tablets and larger (768 and up) */
+@media screen and (min-width :768px) {
+    .heading {
+        font-size: 3.5rem;
+        text-align: center;
+        background-color: #69D1AE;
+        height: 150px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+
+    .score {
+        display: flex;
+        position: absolute;
+        justify-content: space-evenly;
+        width: 100vw;
+        top: 100px;
+        margin-top: 7rem;
+    }
+
+    .makeMove {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 7em; 
+    }
+
+    .playerScore,
+    .computerScore {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+
+        .options {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            margin-top: 7rem;
+        }
+
+        .rock, .paper, .scissors {
+            border-radius: 15px;
+            padding: 1rem;
+            font-size: 1.7rem;
+        
+                }
+
+    .reload {
+        padding: 1.5rem;
+        border-radius: 10px;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        font-size: 20px; 
+        margin-top: 3.5rem;
+    }
+
+    .rules{
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 5rem;
+        font-size: 1.5rem;
+    }
+
+    #social-networks {
+        justify-content: space-evenly;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2.5rem;
+        max-width: 350px;
+        font-size: 35px;
+    
+        }
+    }
+ 
+    /* Media query: laptops and screens from 992px and larger */
+ @media screen and (min-width: 992px) {
+    .heading {
+        font-size: 3rem;
+        text-align: center;
+        background-color: #69D1AE;
+        height: 140px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+        }
+
+    .playerScore, .computerScore {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        }
+ }
