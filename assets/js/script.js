@@ -112,4 +112,3 @@ let gameOver = (pOptions, movesLeft) => {
 }
 
 game();
-
