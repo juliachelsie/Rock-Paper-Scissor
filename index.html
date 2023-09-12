@@ -1,62 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A fun game of Rock, Paper and Scissors!"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A fun game of Rock, Paper and Scissors!"
+    />
     <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title class="title">Rock, Paper and Scissors!</title>
-    <link rel='shortcut icon' type='image/x-icon' href='favicon/rock-paper-scissors.png'/>
-    <script src="https://kit.fontawesome.com/032f9bfe1a.js" crossorigin="anonymous"></script>
-  
-</head>
-<body>
-    
-    <h1 class="heading">Rock, Paper and Scissors!<br><i class="fa-regular fa-hand-back-fist"></i><i class="fa-regular fa-hand"></i><i class="fa-regular fa-hand-scissors"></i></h1>
-    
-<section class="game-area"></section>
-<!-- Score display for player and computer-->
-    <div class="score">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="favicon/rock-paper-scissors.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/032f9bfe1a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1 class="heading">Rock, Paper and Scissors!<br/>
+    <i class="fa-regular fa-hand-back-fist"></i>
+    <i class="fa-regular fa-hand"></i>
+    <i class="fa-regular fa-hand-scissors"></i>
+    </h1>
+
+    <section class="game-area">
+      <!-- Score display for player and computer-->
+      <div class="score">
         <div class="playerScore">
-            <h2>You</h2>
-            <p class="playerCount">0</p>
+          <h2>You</h2>
+          <p class="playerCount">0</p>
         </div>
         <div class="computerScore">
-            <h2>Computer</i></h2>
-            <p class="computerCount" a>0</p>
+          <h2>Computer</h2>
+          <p class="computerCount">0</p>
         </div>
-    </div>
-<!-- Numbers left before game ends-->
-    <div class="makeMove">Make your move!</div>
-    <div class="movesLeft">Moves left: 7</div>
-    <!-- Options for player-->
-    <div class="options">
-    <button class="rock">Rock</button>
-    <button class="paper">paper</button>
-    <button class="scissors">Scissors</button>
-    </div>
-<!-- Result of game-->
-    <div class="result"></div>
-<!--Button for Reload the game-->
-    <button class="reload">Reload Game!</button>
-</section>
-<div class="rules">
-    <h3 class="rulesH2">Rules</h3>
-    <p>Scissor beat Paper</p>
-    <p>Paper beats Rock</p>
-    <p>Rock beat Scissor</p>
-</div>
+      </div>
+      <!-- Numbers left before game ends-->
+      <div class="makeMove">Make your move!</div>
+      <div class="movesLeft">Moves left: 7</div>
+      <!-- Options for player-->
+      <div class="options">
+        <button class="rock">Rock</button>
+        <button class="paper">Paper</button>
+        <button class="scissors">Scissors</button>
+      </div>
+      <!-- Result of game-->
+      <div class="result"></div>
+      <!--Button for Reload the game-->
+      <button class="reload"></button>
+
+      <div class="rules">
+        <h3 class="rulesH2">Rules</h3>
+        <p>Scissor beat Paper</p>
+        <p>Paper beats Rock</p>
+        <p>Rock beat Scissor</p>
+      </div>
+    </section>
     <script src="assets/js/script.js"></script>
     <footer>
-        
-       
-            <a id="social-networks" href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
-             </footer>
-</body>
+      <a
+        id="social-networks"
+        href="https://www.facebook.com/"
+        target="_blank"
+        rel="noopener"
+        aria-label="Visit our Facebook page (opens in new tab)"
+        ><i class="fa-brands fa-facebook"></i
+      ></a>
+    </footer>
+  </body>
 </html>

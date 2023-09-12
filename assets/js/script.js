@@ -3,40 +3,44 @@ let game = () => {
     let computerScore = 0;
     let moves = 0;
 
-    const playGame = () => {
+    let playGame = () => {
         let rockButton = document.querySelector('.rock');
         let paperButton = document.querySelector('.paper');
         let scissorButton = document.querySelector('.scissors');
         let pOptions = [rockButton, paperButton, scissorButton];
-        let cOptions = ['rock', 'paper', 'scissor'];
+        let cOptions = ['rock', 'paper', 'scissors'];
 
         /* function to start playing game */
         pOptions.forEach(option => {
             option.addEventListener('click', function () {
                 let movesLeft = document.querySelector('.movesLeft');
+                moves++;
+                movesLeft.innerText = `Moves Left: ${7-moves}`;
 
                 let numberChoice = Math.floor(Math.random() * 3);
                 let computersChoice = cOptions[numberChoice];
 
-                /*  Function who wins */
+                /*  Function Who wins */
                  
                 winner(this.innerText, computersChoice);
                 /* Gameover function after 7 moves */
-                if (moves === 7) {
+                if(moves == 7) {
                     gameOver(pOptions, movesLeft);
                 }
 
 
-            });
+            })
         });
-    };
-};
+    }
+
 /* Function to decide who is the winner */
 let winner = (player, computer) => {
     let result = document.querySelector('.result');
     let pScoreBoard = document.querySelector('.playerCount');
-    let cScoreboard = document.querySelector('.computerCount');
+    let cScoreBoard = document.querySelector('.computerCount');
     /* player to lowercsae???????*/
+    player = player.toLowerCase();
+    computer = computer.toLowerCase();
     if (player === computer){
         result.textContent = "It's a Tie!"
     }
@@ -44,7 +48,7 @@ let winner = (player, computer) => {
         if (computer == 'paper'){
         result.textContent = 'Sorry, the computer won!';
         computerScore++;
-        cScoreboard.textContent = computerScore;
+        cScoreBoard.textContent = computerScore;
     } else {
         result.textContent = "You won!"
         playerScore++;
@@ -55,7 +59,7 @@ let winner = (player, computer) => {
     if(computer == 'rock'){
         result.textContent = 'Sorry, the computer won!';
         computerScore++;
-        cScoreboard.textContent = computerScore;
+        cScoreBoard.textContent = computerScore;
     } else {
         result.textContent = 'You won!';
         playerScore++;
@@ -66,7 +70,7 @@ else if(player == 'paper'){
     if(computer == 'scissors'){
         result.textContent = 'Sorry, the computer won!';
         computerScore++;
-        cScoreboard.textContent = computerScore;
+        cScoreBoard.textContent = computerScore;
     } else {
         result.textContent = 'You won!';
         playerScore++;
@@ -85,27 +89,28 @@ let gameOver = (pOptions, movesLeft) => {
         option.style.display = 'none';
     })
 
-    move.innerText = 'Game Over!'
+    move.innerText = 'Game Finished!'
     movesLeft.style.display = 'none';
 
     if(playerScore > computerScore){
-        result.style.fontSize = '3rem';
-        result.innerText = 'yay You Won The Game! :D';
-        result.style.color = '#344B48';
+        result.style.fontSize = '2.5rem';
+        result.innerText = 'Yay! You Won The Game! :D';
+        result.style.color = '#69D1AE';
     } else if(playerScore < computerScore){
-        result.style.fontSize = '3rem';
+        result.style.fontSize = '2.5rem';
         result.innerText = 'Sorry, you lost this time. Try again!';
-        result.style.color = '#344B48';
+        result.style.color = '#69D1AE';
     } else{
-        result.style.fontSize = '3rem';
+        result.style.fontSize = '2.5rem';
         result.innerText = "It's a Tie!";
-        result.style.color = '#344B48';
+        result.style.color = '#69D1AE';
     }
     reload.innerText = 'Try Again!';
     reload.style.display = 'flex';
     reload.addEventListener('click',() => {
         window.location.reload();
     })
+}
     
     playGame();
 
