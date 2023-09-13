@@ -52,6 +52,7 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 ![Footer](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/footer.PNG)
 
 ## Featuresleft to implement
+
 - I would like to expand the game to a Rock, Paper, Scissors, Spock and Lizard game, but i did not have the time for it now.
 
 ## Design
@@ -69,6 +70,8 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 ![Colour](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/palett.PNG)
 
 ## Testing
+
+- I have tested the website via validators and via Lighthouse. I have also tested how the site looks on different screen sizes.
 
 ### Testing code via validators
 
@@ -89,16 +92,26 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 ![Mobile](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/lighthouse%20mobile.PNG)
 
 ### How does it look on different screen sizes?
+
 I have tested the website on different screen sizes, here is how it look:
 
-#### Mobile:
+#### Mobile
 
 ![Mobile](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/mobile.PNG)
 
 #### Tablets
 
-![Tablet]
+![Tablet](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/tablet.PNG)
 
 #### Laptops
 
-![Laptops]
+![Laptop](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/laptop.PNG)
+
+## Deployment
+
+- The site was deployed to Github pages and the steps i followed were:
+- In the Github repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master ranch has been selected, the page will be automatically refreshed with detailed ribbon display to indicate the succesful deployment.
+
+The live link can be followed here - <https://juliachelsie.github.io/Rock-Paper-Scissor/>
