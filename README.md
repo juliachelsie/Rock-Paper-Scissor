@@ -87,4 +87,14 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 - Mobile:
   
 ![Mobile](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/lighthouse%20mobile.PNG)
-  
+
+### How does it look on different screen sizes?
+I have tested the website on different screen sizes, here is how it look:
+
+#### Mobile:
+
+![Mobile]
+
+#### Tablets
+
+#### Laptops
