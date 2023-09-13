@@ -93,8 +93,12 @@ I have tested the website on different screen sizes, here is how it look:
 
 #### Mobile:
 
-![Mobile]
+![Mobile](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/mobile.PNG)
 
 #### Tablets
 
+![Tablet]
+
 #### Laptops
+
+![Laptops]
