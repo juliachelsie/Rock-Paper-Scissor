@@ -8,7 +8,7 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 - The website has a header at the top of the page that shows the game name. 
 - It also has playful icons that symbolizes the rock paper and scissors with hands.
   
-  ![Header](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/header.PNG)
+![Header](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/header.PNG)
 
 - __The Game Options__
 - The website has Game Options that allows the user to choose between Rock, Paper or Scissors. The options are interactive buttons that the user clicks to make their choice and play the game.
@@ -20,6 +20,12 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 - When the user clicks on one of the buttons to play, the score changes and the user can easily see who is in the lead. 
 
 ![Scoreboard](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/scoreboard.PNG)
+
+- __Result__
+- When the game is over a text that shows the result pops up. 
+- The text is different whether the user has won, the computer has won or id it is a tie.
+
+![Result](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/result.PNG)
 
 - __Rules__
 - The website has rules that clearly explains how the game works.
