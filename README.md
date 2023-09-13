@@ -53,3 +53,10 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 
 ## Featuresleft to implement
 - I would like to expand the game to a Rock, Paper, Scissors, Spock and Lizard game, but i did not have the time for it now.
+
+## Design
+
+- __typography__
+- Google fonts was used for the following font:
+- 'Open Sans', Sans serif for the body.
+
