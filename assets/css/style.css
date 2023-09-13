@@ -112,10 +112,12 @@ body {
 
 #scrollButton {
     border-radius: 15%;
-    font-size: 30px;
+    font-size: 20px;
     padding: 0.5rem;
     background-color: #E3FFE5;
     border: none;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 
 }
 
@@ -233,6 +235,15 @@ footer {
         font-weight: bold;
     }
 
+    #scrollButton {
+        border-radius: 15%;
+        font-size: 30px;
+        padding: 0.5rem;
+        background-color: #E3FFE5;
+        border: none;
+        padding-bottom: 25px;
+        }
+
     #social-networks {
         justify-content: space-evenly;
         display: block;
@@ -274,4 +285,12 @@ footer {
         display: none;
         font-size: 34px;
                  }
+    #scrollButton {
+        border-radius: 15%;
+        font-size: 30px;
+        padding: 0.5rem;
+        background-color: #E3FFE5;
+        border: none;
+        padding-bottom: 25px;
+        }
  } 
