@@ -95,15 +95,15 @@ let gameOver = (pOptions, movesLeft) => {
     if(playerScore > computerScore){
         result.style.fontSize = '2.5rem';
         result.innerText = 'Yay! You Won The Game! :D';
-        result.style.color = '#69D1AE';
+        result.style.color = '#344B48';
     } else if(playerScore < computerScore){
         result.style.fontSize = '2.5rem';
         result.innerText = 'Sorry, you lost this time. Try again!';
-        result.style.color = '#69D1AE';
+        result.style.color = '#344B48';
     } else{
         result.style.fontSize = '2.5rem';
         result.innerText = "It's a Tie!";
-        result.style.color = '#69D1AE';
+        result.style.color = '#344B48';
     }
     reload.innerText = 'Try Again!';
     reload.style.display = 'flex';
