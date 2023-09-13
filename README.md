@@ -97,7 +97,8 @@ I have tested the website on different screen sizes, here is how it look:
 
 #### Mobile
 
-![Mobile](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/mobile.PNG)
+![Mobile](
+https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/mobile.PNG)
 
 #### Tablets
 
@@ -115,3 +116,10 @@ I have tested the website on different screen sizes, here is how it look:
 - Once the master ranch has been selected, the page will be automatically refreshed with detailed ribbon display to indicate the succesful deployment.
 
 The live link can be followed here - <https://juliachelsie.github.io/Rock-Paper-Scissor/>
+## Credits
+
+### Content
+
+- The icons i used for the website was taken from [Font Awesome](https://fontawesome.com/)
+- The palette was created on [Coolors](https://coolors.co/)
+- The favicon i used was taken from [Favicon](https://favicon.io/)
