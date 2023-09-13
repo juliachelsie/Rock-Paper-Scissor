@@ -117,3 +117,7 @@ let gameOver = (pOptions, movesLeft) => {
 }
 
 game();
+
+function scrollToTop() {
+    window.scrollTo(0, 0);
+}
