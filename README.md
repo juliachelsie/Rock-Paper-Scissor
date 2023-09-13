@@ -60,3 +60,10 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 - Google fonts was used for the following font:
 - 'Open Sans', Sans serif for the body.
 
+- __Colour__
+- I used this colour scheme on the website.
+- #E3FFE5 is used on the body.
+- #344B48 is used on the text.
+- #69D1AE is used on the header and the footer.
+
+![Colour](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/palett.PNG)
