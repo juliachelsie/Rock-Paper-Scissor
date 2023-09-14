@@ -76,18 +76,18 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 ### Testing code via validators
 
 - **Html**
-- No errors were returned when passing through the official (index.html page) [W3C validator]
+- No errors were returned when passing through the official W3C validator
 ![HTML](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/HTMLvalidator.PNG)
 
 - **CSS**
-- No errors were returned when passing through the official (index.html page) [(Jigsaw) validator]
+- No errors were returned when passing through the official Jigsaw validator
 ![CSS](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/CSSvalidator.PNG)
 
 ### Lighthouse
 
 - I used Lighthouse within the Chrome Developer Tools to test performance, accesibility, best practices and SEO of the website for both desktop and mobile.
 - Desktop:
-  ![Desktop](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/lighthouseDesktop.PNG)
+![Desktop](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/lighthouseDesktop.PNG)
 
 - Mobile:
 
