@@ -76,7 +76,7 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 ### Testing code via validators
 
 - **Html**
-- No errors were returned when passing through the official (index.html page) [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-juliachelsie-rock-paper-a0ykzot7ll.us2.codeanyapp.com%2F#textarea)
+- No errors were returned when passing through the official (index.html page) [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2F8000-juliachelsie-rock-paper-a0ykzot7ll.us2.codeanyapp.com%2F#textarea)
 
 - **CSS**
 - No errors were returned when passing through the official (index.html page) [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjuliachelsie-rock-paper-a0ykzot7ll.us2.codeanyapp.com%2F%23%2Fworkspaces%2FRock-Paper-Scissor&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
