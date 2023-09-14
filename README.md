@@ -120,9 +120,10 @@ The live link can be followed here - <https://juliachelsie.github.io/Rock-Paper-
 
 ### Content
 
+- I looked at the "If/Else" and the "funtions" module from [Code Institute](https://codeinstitute.net/se/)
 - The icons i used for the website was taken from [Font Awesome](https://fontawesome.com/)
 - The palette was created on [Coolors](https://coolors.co/)
 - The favicon i used was taken from [Favicon](https://favicon.io/)
 - I searched the internet and found the code for the scroll-button at [W3docs](https://www.w3docs.com/snippets/javascript/how-to-scroll-to-the-top-of-the-page-using-javascript.html)
   
-![Scrollbutton]
+![Scrollbutton](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/media/scrollCode.PNG)
