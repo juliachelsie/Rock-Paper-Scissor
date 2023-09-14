@@ -10,7 +10,7 @@ let game = () => {
         let pOptions = [rockButton, paperButton, scissorButton];
         let cOptions = ['rock', 'paper', 'scissors'];
 
-        /* function to start playing game */
+        /* Function to start playing game */
         pOptions.forEach(option => {
             option.addEventListener('click', function () {
                 let movesLeft = document.querySelector('.movesLeft');
@@ -38,11 +38,11 @@ let winner = (player, computer) => {
     let result = document.querySelector('.result');
     let pScoreBoard = document.querySelector('.playerCount');
     let cScoreBoard = document.querySelector('.computerCount');
-    /* player to lowercsae???????*/
+   
     player = player.toLowerCase();
     computer = computer.toLowerCase();
     if (player === computer){
-        result.textContent = "It's a Tie!"
+        result.textContent = "It's a Tie!";
     }
     else if (player == 'rock'){
         if (computer == 'paper'){
@@ -50,7 +50,7 @@ let winner = (player, computer) => {
         computerScore++;
         cScoreBoard.textContent = computerScore;
     } else {
-        result.textContent = "You won!"
+        result.textContent = "You won!";
         playerScore++;
         pScoreBoard.textContent = playerScore;
     }
@@ -77,7 +77,7 @@ else if(player == 'paper'){
         pScoreBoard.textContent = playerScore;
     }
 } 
-}
+};
 
 /* Function that runs when the game is over */
 let gameOver = (pOptions, movesLeft) => {
@@ -87,9 +87,9 @@ let gameOver = (pOptions, movesLeft) => {
 
     pOptions.forEach(option => {
         option.style.display = 'none';
-    })
+    });
 
-    move.innerText = 'Game Finished!'
+    move.innerText = 'Game Finished!';
     movesLeft.style.display = 'none';
 
     if(playerScore > computerScore){
@@ -109,14 +109,16 @@ let gameOver = (pOptions, movesLeft) => {
     reload.style.display = 'flex';
     reload.addEventListener('click',() => {
         window.location.reload();
-    })
-}
-    
+    });
+};
+    /* Calling the playGame function*/
     playGame();
 
-}
-
+};
+/* Calling the game function */
 game();
+
+/* Function for scroll button */
 
 function scrollToTop() {
     window.scrollTo(0, 0);
