@@ -75,6 +75,10 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 
 ### Testing code via validators
 
+- I tested playing the game on different browsers, Chrome and Microsoft edge.
+- The game results are always correct.
+- The header, options, instructions, results and footer text are readable.
+
 - **Html**
 - No errors were returned when passing through the official W3C validator
 ![HTML](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/HTMLvalidator.PNG)
@@ -109,6 +113,10 @@ I have tested the website on different screen sizes, here is how it look:
 
 ![Laptop](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/laptop.PNG)
 
+### Bugs
+
+-There are no bugs.
+
 ## Deployment
 
 - The site was deployed to Github pages and the steps i followed were:
@@ -122,7 +130,7 @@ The live link can be followed here - <https://juliachelsie.github.io/Rock-Paper-
 
 ### Content
 
-- I looked at the "If/Else" and the "funtions" module from [Code Institute](https://codeinstitute.net/se/)
+- I looked at the "If/Else" and the "functions" module from [Code Institute](https://codeinstitute.net/se/)
 - The icons i used for the website was taken from [Font Awesome](https://fontawesome.com/)
 - The palette was created on [Coolors](https://coolors.co/)
 - The favicon i used was taken from [Favicon](https://favicon.io/)
