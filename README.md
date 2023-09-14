@@ -24,6 +24,10 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 - **Result**
 - When the game is over a text that shows the result pops up.
 - The text is different whether the user has won, the computer has won or id it is a tie.
+- I also added an alert method to the function that runs when the game is over and displays a virtual alert box.
+- The alert is different depending on who won the game or if it ended in a tie.
+
+![Alert](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/alert.PNG)
 
 ![Result](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/result.PNG)
 ![Result](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/computerwon.PNG)
@@ -51,7 +55,7 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 
 ![Footer](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/footer.PNG)
 
-## Featuresleft to implement
+## Features left to implement
 
 - I would like to expand the game to a Rock, Paper, Scissors, Spock and Lizard game, but i did not have the time for it now.
 
@@ -118,7 +122,7 @@ I have tested the website on different screen sizes, here is how it look:
 
 ### Bugs
 
--There are no bugs.
+- There are no bugs.
 
 ## Deployment
 
