@@ -10,7 +10,7 @@ let game = () => {
         let pOptions = [rockButton, paperButton, scissorButton];
         let cOptions = ['rock', 'paper', 'scissors'];
 
-        /* Function to start playing game */
+        /* unction to start playing game */
         pOptions.forEach(option => {
             option.addEventListener('click', function () {
                 let movesLeft = document.querySelector('.movesLeft');
@@ -29,9 +29,9 @@ let game = () => {
                 }
 
 
-            })
+            });
         });
-    }
+    };
 
 /* Function to decide who is the winner */
 let winner = (player, computer) => {
@@ -96,14 +96,17 @@ let gameOver = (pOptions, movesLeft) => {
         result.style.fontSize = '2.5rem';
         result.innerText = 'Yay! You Won The Game! :D';
         result.style.color = '#344B48';
+        alert("Woho! You won the game!");
     } else if(playerScore < computerScore){
         result.style.fontSize = '2.5rem';
         result.innerText = 'Sorry, you lost this time. Try again!';
         result.style.color = '#344B48';
+        alert("You lost this time, give it another go!")
     } else{
         result.style.fontSize = '2.5rem';
         result.innerText = "It's a Tie!";
         result.style.color = '#344B48';
+        alert("It's a tie!")
     }
     reload.innerText = 'Try Again!';
     reload.style.display = 'flex';
