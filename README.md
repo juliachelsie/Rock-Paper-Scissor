@@ -71,13 +71,13 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 
 ## Testing
 
-- I have tested the website via validators and via Lighthouse. I have also tested how the site looks on different screen sizes.
-
-### Testing code via validators
-
 - I tested playing the game on different browsers, Chrome and Microsoft edge.
 - The game results are always correct.
 - The header, options, instructions, results and footer text are readable.
+
+### Testing code via validators
+
+- I have tested the website via validators and via Lighthouse. I have also tested how the site looks on different screen sizes.
 
 - **Html**
 - No errors were returned when passing through the official W3C validator
