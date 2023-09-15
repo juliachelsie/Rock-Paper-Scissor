@@ -62,7 +62,7 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 
 ## Design
 
-- **typography**
+- **Typography**
 - Google fonts was used for the following font:
 - 'Open Sans', Sans serif for the body.
 
