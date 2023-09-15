@@ -10,7 +10,7 @@ let game = () => {
         let pOptions = [rockButton, paperButton, scissorButton];
         let cOptions = ['rock', 'paper', 'scissors'];
 
-        /* unction to start playing game */
+        /* Function to start playing game */
         pOptions.forEach(option => {
             option.addEventListener('click', function () {
                 let movesLeft = document.querySelector('.movesLeft');
@@ -30,8 +30,12 @@ let game = () => {
 
 
             });
+            
         });
     };
+
+    
+    
 
 /* Function to decide who is the winner */
 let winner = (player, computer) => {
@@ -49,6 +53,8 @@ let winner = (player, computer) => {
         result.textContent = 'Sorry, the computer won!';
         computerScore++;
         cScoreBoard.textContent = computerScore;
+        
+           
     } else {
         result.textContent = "You won!";
         playerScore++;
@@ -59,7 +65,9 @@ let winner = (player, computer) => {
     if(computer == 'rock'){
         result.textContent = 'Sorry, the computer won!';
         computerScore++;
-        cScoreBoard.textContent = computerScore;
+        cScoreBoard.textContent = computerScore; 
+       
+       
     } else {
         result.textContent = 'You won!';
         playerScore++;
@@ -71,13 +79,17 @@ else if(player == 'paper'){
         result.textContent = 'Sorry, the computer won!';
         computerScore++;
         cScoreBoard.textContent = computerScore;
+        
     } else {
         result.textContent = 'You won!';
         playerScore++;
         pScoreBoard.textContent = playerScore;
     }
+    
+    
 } 
 };
+
 
 /* Function that runs when the game is over */
 let gameOver = (pOptions, movesLeft) => {
