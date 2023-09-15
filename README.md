@@ -58,6 +58,7 @@ Rock, Paper and scissors is a game where the user is playing against the compute
 ## Features left to implement
 
 - I would like to expand the game to a Rock, Paper, Scissors, Spock and Lizard game, but i did not have the time for it now.
+- I would also like to add images to the scoreboard that changes when the user and the computer choose an option (rock, paper or scissor). But sadly i did not have the time to do that now.
 
 ## Design
 
@@ -144,3 +145,5 @@ The live link can be followed here - <https://juliachelsie.github.io/Rock-Paper-
 - I searched the internet and found the code for the scroll-button at [W3docs](https://www.w3docs.com/snippets/javascript/how-to-scroll-to-the-top-of-the-page-using-javascript.html)
   
 ![Scrollbutton](https://github.com/juliachelsie/Rock-Paper-Scissor/blob/main/documentation/scrollCode.PNG)
+
+- I searched the internet and got inspiration from [GeeksforGeeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)

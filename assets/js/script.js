@@ -34,13 +34,14 @@ let game = () => {
         });
     };
 
+  
+
 /* Function to decide who is the winner */
 let winner = (player, computer) => {
     let result = document.querySelector('.result');
     let pScoreBoard = document.querySelector('.playerCount');
     let cScoreBoard = document.querySelector('.computerCount');
    
-
 
     player = player.toLowerCase();
     computer = computer.toLowerCase();
@@ -111,12 +112,12 @@ let gameOver = (pOptions, movesLeft) => {
         result.style.fontSize = '2.5rem';
         result.innerText = 'Sorry, you lost this time. Try again!';
         result.style.color = '#344B48';
-        alert("You lost this time, give it another go!")
+        alert("You lost this time, give it another go!");
     } else{
         result.style.fontSize = '2.5rem';
         result.innerText = "It's a Tie!";
         result.style.color = '#344B48';
-        alert("It's a tie!")
+        alert("It's a tie!");
     }
     reload.innerText = 'Try Again!';
     reload.style.display = 'flex';
@@ -126,8 +127,9 @@ let gameOver = (pOptions, movesLeft) => {
 };
     /* Calling the playGame function*/
     playGame();
-
 };
+
+
 /* Calling the game function */
 game();
 
@@ -136,3 +138,4 @@ game();
 function scrollToTop() {
     window.scrollTo(0, 0);
 }
+ 
