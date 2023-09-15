@@ -1,3 +1,5 @@
+/* I took inspiration and borrowed code from https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/ */
+
 let game = () => {
     let playerScore = 0;
     let computerScore = 0;
