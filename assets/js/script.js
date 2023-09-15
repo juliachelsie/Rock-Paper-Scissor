@@ -34,15 +34,14 @@ let game = () => {
         });
     };
 
-    
-    
-
 /* Function to decide who is the winner */
 let winner = (player, computer) => {
     let result = document.querySelector('.result');
     let pScoreBoard = document.querySelector('.playerCount');
     let cScoreBoard = document.querySelector('.computerCount');
    
+
+
     player = player.toLowerCase();
     computer = computer.toLowerCase();
     if (player === computer){
@@ -54,8 +53,7 @@ let winner = (player, computer) => {
         computerScore++;
         cScoreBoard.textContent = computerScore;
         
-           
-    } else {
+           } else {
         result.textContent = "You won!";
         playerScore++;
         pScoreBoard.textContent = playerScore;
